@@ -1,6 +1,6 @@
 ﻿namespace chess
 {
-    partial class Form1
+    partial class ChessGame
     {
         /// <summary>
         ///  Required designer variable.
@@ -481,7 +481,7 @@
             label8.Text = "Пожалуйста, воздержитесь от использования \r\nнецензурной лексики в чате. \r\nУважайте других участников общения.";
             label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // ChessGame
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -499,7 +499,7 @@
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             MaximizeBox = false;
-            Name = "Form1";
+            Name = "ChessGame";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);
